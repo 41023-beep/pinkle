@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<title>การสอบHSK</title>
+<style>
+:root{
+  --accent:#D9622B;
+  --accent-dark:#8B2500;
+  --accent-soft:#FDF1DC;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  background:linear-gradient(180deg,#C0392B,#ffd96f,#dfe7f0);
+  min-height:100vh;
+  padding:40px 20px;
+  color:#333;
+}
+.container{
+  max-width:1000px;
+  margin:0 auto;
+  background:#fff;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 30px 60px -20px rgba(50,50,93,.25),0 18px 36px -18px rgba(0,0,0,.3);
+}
+header{
+  height:220px;
+  background-image:linear-gradient(135deg,rgba(0,0,0,.4),rgba(0,0,0,.15)),url(img/header.png);
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  align-items:flex-end;
+  padding:30px 40px;
+}
+header .brand{
+  color:#fff;
+  font-size:28px;
+  font-weight:600;
+  text-shadow:0 2px 10px rgba(0,0,0,.4);
+}
+.accent-bar{
+  height:6px;
+  background:linear-gradient(90deg,#C0392B,#D9622B,#E8912B,#EFB92B,#F2D93B);
+}
+section{display:flex;flex-wrap:wrap;}
+nav{
+  flex:0 0 220px;
+}
+nav ul{list-style:none;display:flex;flex-direction:column;}
+nav li a{
+  display:block;
+  width:100%;
+  padding:24px 14px;
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+  font-weight:500;
+  text-align:center;
+  transition:filter .2s;
+}
+nav li:nth-child(1) a{background:#C0392B;}
+nav li:nth-child(2) a{background:#D9622B;}
+nav li:nth-child(3) a{background:#E8912B;}
+nav li:nth-child(4) a{background:#EFB92B;}
+nav li:nth-child(5) a{background:#F2D93B;}
+nav li.active a{
+  font-weight:700;
+  box-shadow:inset 0 0 0 3px rgba(255,255,255,.55);
+}
+article{
+  justify-items: center;
+  flex:1;
+  min-width:300px;
+  padding:40px;
+}
+article h1{
+  width: 300px;
+  border-radius:15px;
+  background-color:#EFB92B;
+  text-align:center;
+  color:#000000;
+  padding:20px;
+  margin-bottom:20px;
+}
+article p{
+  border-radius:15px;
+  background-color:#EFB92B;
+    font-size:16px;
+  line-height:1.8;
+  color:#000000;
+  padding:20px;
+  margin-bottom:20px;
+}
+footer{
+  text-align:center;
+  padding:24px;
+  background:var(--accent-soft);
+  color:var(--accent-dark);
+  border-top:4px solid var(--accent);
+  font-size:14px;
+  line-height:1.7;
+}
+
+
+.article-img{
+  width:100%;
+  max-width:560px;
+  display:block;
+  margin:0 auto 20px;
+  border-radius:15px;
+  box-shadow:0 12px 24px -8px rgba(139,37,0,.35);
+}
+.img-row{
+  display:flex;
+  gap:16px;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-bottom:20px;
+}
+.img-row .article-img{margin-bottom:0;flex:1;min-width:220px;}
+</style>
+</head>
+<body>
+<div class="container">
+<header><span class="brand">การสอบ HSK</span></header>
+<div class="accent-bar"></div>
+<section>
+<nav>
+<ul>
+<li><a href="index.html">HSK1</a></li>
+<li><a href="page2.html">HSK2</a></li>
+<li><a href="page3.html">HSK3</a></li>
+<li class="active"><a href="page4.html">HSK4</a></li>
+<li><a href="page5.html">HSK5</a></li>
+</ul>
+</nav>
+<article>
+<h1>HSK4</h1>
+<img class="article-img" src="img/1.jpg" alt="คณะเศรษฐศาสตร์และการจัดการ มหาวิทยาลัยถงจี้">
+<p>ระดับมาตรฐานสำหรับการศึกษาต่อและทำงาน ระดับนี้เน้นความเข้าใจภาษาจีนในเชิงลึกขึ้น ผู้เรียนต้องสามารถอ่านและจับใจความสำคัญของบทความ ความยาวปานกลาง บทวิเคราะห์ หรือข่าวสารทั่วไปได้ ไวยากรณ์เน้นการเชื่อมโยงประโยคยาวๆ และการใช้สำนวนหรือคำสันทานที่เป็นทางการมากขึ้น นอกจากนี้ ข้อสอบจะเริ่มมีการสอบเขียนเรียงความสั้นๆ จากภาพถ่าย หรือการเรียงลำดับประโยคให้ถูกต้องตามหลักภาษา HSK 4 จึงเป็นระดับขั้นต่ำที่มหาวิทยาลัยในจีนส่วนใหญ่ใช้เป็นเกณฑ์รับนักศึกษาต่างชาติเข้าเรียนต่อระดับปริญญาตรี</p>
+<p>รายละเอียดข้อสอบ: คะแนนเต็ม 300 คะแนน (ผ่านที่ 180 คะแนน)
+<br><br>การฟัง (45 ข้อ / 30 นาที): ฟังเรื่องเล่า บทสนทนายาว และเลือกคำตอบ (ฟังเพียงรอบเดียว)
+<br>การอ่าน (40 ข้อ / 40 นาที): อ่านบทความยาว เลือกคำตอบ และเติมคำในช่องว่าง
+<br>การเขียน (15 ข้อ / 25 นาที): เรียงประโยค และแต่งประโยคจากภาพที่กำหนดพร้อมใช้คำศัพท์ที่ให้มา
+<br><br>ไวยากรณ์สำคัญ: คำสันทานระดับสูง (不仅...而且..., 尽管, 竟然), การใช้สำนวนสุภาษิตพื้นฐานและโครงสร้างเน้นย้ำความ</p>
+<p>การนำไปใช้: อภิปรายหัวข้อทั่วไป สมัครงานในบริษัทจีน และใช้ยื่นขอทุนเรียนต่อระดับ
+ปริญญาตรี (สาขาที่ไม่ใช่ภาษาจีนโดยตรง)
+</p>
+</article>
+</section>
+<footer><p>จัดทำโดย น.ส.กุลชลี ศิริโพคา ชั้น ม.6/1 เลขที่21<br>โรงเรียนรัตนราษฎร์บำรุง</p></footer>
+</div>
+</body>
+</html>
